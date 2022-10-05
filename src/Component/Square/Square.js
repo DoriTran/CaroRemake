@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 const Square = (props) => {
     return (
         <Button 
-          variant="outlined"
+          variant="contained"
           className={"square" + (props.isBold ? " bold-square" : "") 
                           + (props.isHighlight ? " highlight-square" : "")
                           + (props.value === "X" ? " x-color" : " o-color" )} 
