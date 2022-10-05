@@ -1,0 +1,41 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+}
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+
+.status {
+    margin-bottom: 10px;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.game-notification {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.game-sort-button {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.game-step-button {
+    font-size: 15px;
+    width: 100%;
+}
+
+.game-info {
+    margin-left: 20px;
+    width: 20%;
+}
