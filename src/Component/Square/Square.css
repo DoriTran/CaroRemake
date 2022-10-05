@@ -1,24 +1,35 @@
 .square {
-    background: #fff;
+    background: #fff !important;
     border: 1px solid #999;
     float: left;
-    font-size: 24px;
+
+    font-size: 24px !important;
     line-height: 34px;
-    height: 34px;
+
+    height: 34px !important;
+    width: 34px !important;
+    max-width: 34px !important;
+    min-width: 34px !important;
+    max-height: 34px !important;
+    min-height: 34px !important;
+
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
+
     text-align: center;
-    width: 34px;
+    padding: 0 !important;
+
+    border-radius: 0 !important;
 }
 
 .bold-square {
-    font-size: 30px !important;
+    font-size: 35px !important;
     font-weight: bold;
 }
 
 .highlight-square {
-    background: rgba(255, 255, 0, 0.67);
+    background: rgba(255, 255, 0, 0.67) !important;
 }
 
 .square:focus, .bold-square:focus {
@@ -27,4 +38,12 @@
 
 .kbd-navigation .square:focus {
     background: #ddd;
+}
+
+.x-color {
+    color: red !important;
+}
+
+.o-color {
+    color: blue !important;
 }

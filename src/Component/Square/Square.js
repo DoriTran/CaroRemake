@@ -1,10 +1,17 @@
 import "./Square.css"
 
+import Button from '@mui/material/Button';
+
 const Square = (props) => {
     return (
-        <button className={"square" + (props.isBold ? " bold-square" : "") + (props.isHighlight ? " highlight-square" : "")} onClick={props.onClick}>
+        <Button 
+          variant="outlined"
+          className={"square" + (props.isBold ? " bold-square" : "") 
+                          + (props.isHighlight ? " highlight-square" : "")
+                          + (props.value === "X" ? " x-color" : " o-color" )} 
+          onClick={props.onClick}>
           {props.value}
-        </button>
+        </Button>
     );
 }
  

@@ -3,3 +3,32 @@
     content: "";
     display: table;
 }
+
+.board-size-config {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 20px;
+
+    gap: 20px;
+    height: 40px;
+}
+
+.board-input {
+    font-size: 20px;
+    width: 100px;
+}
+
+.board-container {
+    width: 100%;
+    height: calc(100vh - 50px);
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
